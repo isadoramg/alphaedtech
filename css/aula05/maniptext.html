@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação de Texto</title>
+    <style>
+        body {
+            background-image: url("https://cinesiageek.com.br/wp-content/uploads/2016/02/6899259-dark-background-2.jpg");
+            background-color: #cccccc;
+            font-family: "Verdana";
+            color: whitesmoke;
+        }
+
+        .e1 {
+            writing-mode: horizontal-tb;
+            font-weight: lighter;
+            text-align: center;
+            color: lightcyan
+        }
+
+        .e2 {
+            writing-mode: vertical-rl;
+            font-weight: bold;
+            color: lightsalmon;
+
+        }
+
+        .e3 {
+            height: 300px;
+            direction: rtl;
+            font-weight: bold;
+            color: lightgreen;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de Manipulação de Texto</h1>
+    <p class="e1">Texto com modo de escrita padrão.</p>
+
+    <p>Texto com elemento span no modo <span class="e2">vertical.</span></p>
+
+    <p class="e2">Texto deitadinho na vertical heheheh</p>
+
+    <p class="e3">Textinho no cantinho</p>
+</body>
+
+</html>
