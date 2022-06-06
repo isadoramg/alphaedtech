@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .bloco1 {
+            background-color: greenyellow;
+            width: 200px;
+            height: 180px;
+            border: 1px solid black;
+            overflow: visible;
+            float: left;
+        }
+
+        .bloco2 {
+            background-color: coral;
+            width: 200px;
+            height: 120px;
+            border: 1px solid black;
+            overflow: hidden;
+            float: left;
+        }
+
+        .bloco3 {
+            background-color: lightslategray;
+            width: 200px;
+            height: 140px;
+            border: 1px solid black;
+            overflow: scroll;
+            float: left;
+        }
+
+        .bloco4 {
+            background-color: yellow;
+            width: 200px;
+            height: 140px;
+            border: 1px solid black;
+            overflow: auto;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Overflow</h1>
+    <h2>Visible:</h2>
+    <div class='bloco1'>
+        <p>Lista top 10 filmes de Isadora</p>
+        <ul>
+            <li>Eu sou a lenda</li>
+            <li>Efeito borboleta</li>
+            <li>Estrelas além do tempo</li>
+            <li>Parasita</li>
+            <li>Guerra mundial Z</li>
+            <li>Bastardos inglórios</li>
+            <li>Histórias Cruzadas</li>
+            <li>Gladiador</li>
+            <li>O Conde de Montecristo</li>
+            <li>As Branquelas</li>
+        </ul>
+    </div>
+    <br /> <br /> <br />
+    <h2>Hidden:</h2>
+    <div class='bloco2'>
+        <p>Lista filmes para assistir</p>
+        <ul>
+            <li>Matrix</li>
+            <li>Sociedade dos poetas mortos</li>
+            <li>O brilho eterno de uma mente sem lembranças</li>
+            <li>Minha vida na outra vida</li>
+            <li>O show de Truman</li>
+        </ul>
+    </div>
+    <br />
+        <h2>Scroll:</h2>
+        <div class='bloco3'>
+            <p>Lista top 5 animações</p>
+            <ul>
+                <li>Shrek</li>
+                <li>Os incríveis</li>
+                <li>Coraline</li>
+                <li>A casa monstro</li>
+                <li>Monstros S.A</li>
+            </ul>
+        </div>
+    <br />
+        <h2>Auto:</h2>
+        <div class='bloco4'>
+            <p>Filmes ruins de acordo com Isadora</p>
+            <ul>
+                <li>Midsommar</li>
+                <li>Hereditário</li>
+                <li>A forma da água</li>
+                <li>Cats</li>
+            </ul>
+        </div>
+</body>
+
+</html>
