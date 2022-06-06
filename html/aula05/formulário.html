@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1 style="text-align:center">Cadastro</h1>
+    <br />
+    <h2>Para efetuarmos seu cadastro, será necessário informar alguns dados.</h2>
+    <h3>Informe seus dados abaixo:</h3>
+    <h4><font color="red">Preencha atentamente!</font></h4>
+    <form>
+        <fieldset>
+            <p>Selecione seu gênero:</p>
+            <input type="radio" name="sex" value="masculino">Masculino<br>
+            <input type="radio" name="sex" value="feminino">Feminino
+            <br><br>
+            Nome:
+            <input type="text" name="nome">
+            <br>
+            Sobrenome:
+            <input type="text" name="sobrenome">
+            <br>
+            <form action="/action_page.php">
+                <label for="birthday">Data de nascimento:</label>
+                <input type="date" id="birthday" name="birthday">
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <input type="checkbox" name="veiculo" value="Bicicleta">Selecione este campo se você tem uma bicicleta<br>
+        <input type="checkbox" name="veiculo" value="Carro">Selecione este campo se você tem um carro<br>
+        <input type="checkbox" name="veiculo" value="Moto">Selecione este campo se você tem uma moto
+        <form name="input" action="html_form_action.asp" method="get">
+        </form>
+        <br>
+        <form action="/action_page.php">
+            <label for="vol">Qual seu nivel se satisfação com a vida hoje?</label>
+            <input type="range" id="vol" name="vol" min="0" max="50">
+        </form>
+        <br>
+        <form action="/action_page.php">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="pwd">Senha:</label>
+            <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+            <input type="reset" value="Redefinir">
+            <input type="submit"value="Enviar">
+        </form>
+</body>
+
+</html>
