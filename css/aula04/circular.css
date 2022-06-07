@@ -1,0 +1,10 @@
+.bs {
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 5px rgb(196, 58, 81);
+    overflow: hidden;
+    border-radius: 50%;
+}
+.bs img {
+    height: 100%;
+}
