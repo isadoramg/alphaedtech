@@ -5,22 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <title>JS</title>
+    <title>Formulário</title>
 </head>
 
-<body onload="addEvents()">
-    <h1>Hello World!</h1>
-    <button type="button" id="bot">Press Here!</button>   
-    <script src="index.js"></script>
-
-
+<body>
+        <input class="in1" type="number" id="n1" placeholder="Informe o primeiro nº:">
+        <br>
+        <input class="in1" type="number" id="n2" placeholder="Informe o segundo nº:">
+        <br>
+        <button onclick="compare()" type="button" id="bot">COMPARAR</button>
+        <script src="form.js"></script>
+        <input class="in2" id="result" type="text">
 </body>
 
 </html>
+
 
 
 
