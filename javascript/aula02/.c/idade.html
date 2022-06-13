@@ -5,31 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="strings.css">
+    <link rel="stylesheet" href="idade.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <title>Strings</title>
+    <title>Anos de vida</title>
 </head>
 
 <body>
-    <label>DIGITE DUAS PALAVRAS :</label>
-    <input class="in1" type="text" id="fw">
+    <script src="idade.js"></script>
+    <label>INFORME SUA DATA DE NASCIMENTO E GÊNERO A SEGUIR :</label>
+    <input class="in1" type="date" id="n1" placeholder="Informe sua idade (d/m/a):">
     <br>
-    <input class="in1" type="text" id="sw">
+    <div>
+        <input type="radio" name="genero" value="masculino">Masculino&nbsp&nbsp<br>
+        <input type="radio" name="genero" value="feminino">Feminino
+    </div>
     <br>
-    <button onclick="compare()" type="button" id="bot">COMPARAR</button>
+    <button onclick="remainingDays()" type="button" id="bot">VERIFICAR</button>
     <input class="in2" id="result" type="text">
-    <script src="strings.js"></script>
 </body>
 
 </html>
 
 
 
-<!--
-    Crie uma página web que peça ao usuário que digite a sua idade em 3 campos (DIA, MÊS e ANO), 
+    <!-- Crie uma página web que peça ao usuário que digite a sua idade em 3 campos (DIA, MÊS e ANO), 
     seu gênero e, após clicar em um botão de ‘verificar’ informe a quantidade de dias (aproximadamente) 
     que faltam para a sua morte considerando a expectativa de morte fornecida pelo IBGE de 73,1 anos 
-    para homens e 80,1 anos para mulheres.
--->
+    para homens e 80,1 anos para mulheres. -->
