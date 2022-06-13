@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <label>CALCULADORA:</label>
+
+    <input id="operando1" type="text" />
+    <input id="operando2" type="text" />
+
+    <select id="operador">
+        <option value="soma">Soma</option>
+        <option value="subtração">Subtração</option>
+        <option value="multiplicação">Multiplicação</option>
+        <option value="divisão">Divisão</option>
+    </select>
+    <button type="button" onclick="calc()">Calcular</button>
+    <p id="resultado"></p>
+    <script type="text/javascript" src="index.js" defer></script>
+</body>
+</html>
+
+
+
+<!-- Utilizando o conhecimento obtido na aula anterior, crie novamente três arquivos 
+(“index.html”, “index.css” e “index.js”) e faça um formulário com dois campos e um botão que, 
+ao ser clicado, exiba conforme o HTML select selecionado a “soma”, “subtração”, “multiplicação” e “divisão
+” dos campos tanto na página web quanto no console do navegador. 
+
+Observação: 
+
+Elemento1: “operando1”;
+Elemento2: “operando2”;
+HTML select: “operador” com a possibilidade de selecionar “soma”, “subtração”, “multiplicação” 
+e “divisão”;
+Botão: “calcular” ao ser clicado exibe o cálculo conforme operador selecionado;
+O formulário deve estar bem formatado, com título e ser apresentado como um “Card” 
+(utilize seu conhecimento de ‘flexbox’ e CSS para isso). -->
