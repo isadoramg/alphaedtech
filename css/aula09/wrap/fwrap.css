@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+p {
+    text-align: center;
+    color: hotpink;
+    font-size: 200px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.child {
+    width: 50%;
+    height: 200px;
+    background-color: lightgreen;
+    border: 3px solid black;
+}
+
