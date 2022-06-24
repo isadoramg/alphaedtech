@@ -24,7 +24,7 @@ label {
 }
 
 input {
-    width: 10vw;
+    width: 22vw;
     height: 40px;
     font-size: 15px;
     font-weight: bolder;
@@ -57,7 +57,11 @@ button {
 }
 
 button:hover {
-    background-color: mediumvioletred;
+    background-color: fuchsia;
+}
+
+title {
+    color: white;
 }
 
 p {

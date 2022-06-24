@@ -21,14 +21,18 @@ function remainingDays() {
     const date = document.getElementById("n1").value;
     const age = Math.abs(new Date() - new Date(date));
     const days = age/(1000 * 3600 * 24);
-    var data = new Date();
+    const man = 73.1 * 365;
+    const woman = 80.1 * 365;
+    const result = document.getElementById("result");
+    let daysLeft;
+    if (gender == "masculino") {
+       daysLeft = man - days;
+    }
+    
+    else {
+        daysLeft = woman - days;
+    }
 
+    result.value = "Você tem " + daysLeft + " dias de vida!";
 
-
-console.log(dataAtual);
-    console.log(typeof date);
-    console.log(days);
-    // if (gender === "masculino") {
-    //     73,1 
-    // }
 }

@@ -1,7 +1,7 @@
 function calc() {
     const operando1 = parseInt(document.querySelector("#operando1").value, 10);
     const operando2 = parseInt(document.querySelector("#operando2").value, 10);
-    const operador = document.querySelector("operador").value;
+    const operador = document.querySelector("#operador").value;
 
     let resultado;
 
@@ -15,5 +15,6 @@ function calc() {
         resultado = operando1 / operando2;
     };
 
-    document.querySelector("#resultado").textContent = "Resultado: " + resultado;
+    let resultPlace = document.getElementById("resultado");
+    resultPlace.innerHTML = "Resultado: " + resultado;
 }
