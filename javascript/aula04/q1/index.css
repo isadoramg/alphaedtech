@@ -34,15 +34,6 @@ input {
     border-radius: 10px;
 }
 
-select {
-    height: 40px;
-    font-size: 15px;
-    font-weight: bolder;
-    text-align: center;
-    color: #000;
-    border: solid 1px #000;
-    border-radius: 10px;
-}
 
 button {
     width: 10vw;
@@ -60,9 +51,6 @@ button:hover {
     background-color: fuchsia;
 }
 
-title {
-    color: white;
-}
 
 p {
     width: 17vw;

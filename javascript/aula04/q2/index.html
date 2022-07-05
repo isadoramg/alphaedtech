@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="./index.js"></script>
+    <title>Index</title>
 </head>
-<body>
-    
+    <body onload="addEvents()">
+        <label>Escolha dois números inteiros distintos:</label>
+        <input type="text" id="num1" placeholder="Insira um número inteiro:" />
+        <input type="text" id="num2" placeholder="Insira um número inteiro maior que o anterior:" />
+        <button type="button" id="bot">Sortear</button>
+        <p id="resultado"></p>
 </body>
 </html>
+
+
 
 
 
